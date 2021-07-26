@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
-using Syncfusion.SfCarousel.XForms.iOS;
 using UIKit;
 
 namespace GettingStarted.iOS
@@ -24,7 +23,7 @@ namespace GettingStarted.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            new SfCarouselRenderer();
+            Syncfusion.SfCarousel.XForms.iOS.SfCarouselRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
