@@ -5,11 +5,11 @@ The Essential Xamarin Carousel control allows navigating through image data in a
 For know more details about Carousel: https://www.syncfusion.com/xamarin-ui-controls/xamarin-carousel-view
 
 Carousel user guide documentation: https://help.syncfusion.com/xamarin/carousel-view/getting-started
-# Getting Started with Xamarin Carousel View (SfCarousel)
+## Getting Started with Xamarin Carousel View (SfCarousel)
 
 This section explains how to showcase a Gallery of photos along with a Title using Xamarin Carousel View (SfCarousel) Control.
 
-# Create a Simple SfCarousel
+## Create a Simple SfCarousel
 The Xamarin Carousel View (SfCarousel) control is configured entirely in C# code or by using XAML markup. The following steps explain on how to create a SfCarousel and configure its elements,
 
 *   Adding namespace for the added assemblies.
@@ -24,7 +24,7 @@ xmlns:carousel="clr-namespace:Syncfusion.SfCarousel.XForms;assembly=Syncfusion.S
     <carousel:SfCarousel x:Name="carousel" />
 ```
 
-# Add Carousel Items
+## Add Carousel Items
 We can populate the carousel’s items by using any one of the following ways,
 
 *   Through SfCarouselItem
